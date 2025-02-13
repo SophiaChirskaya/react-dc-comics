@@ -9,7 +9,7 @@ export default function Navbar(props) {
         { id: 7, text: 'VIDEOS', url: '#', current: false },
         { id: 8, text: 'FANS', url: '#', current: false },
         { id: 9, text: 'NEWS', url: '#', current: false },
-        { id: 10, text: 'SHOP', url: '#', current: false }
+        { id: 10, text: 'SHOP', url: '#', current: false },
     ];
 
 
@@ -20,9 +20,6 @@ export default function Navbar(props) {
                         <a href={link.url} className={link.current ? 'active' : ''}>{link.text}</a>
                     </li>
                 ))}
-                {/* <li><a href="">CHARACTERS</a></li>
-                <li><a href="" className="active">COMICS</a></li> */}
-
             </ul>
     </nav>);
 }
