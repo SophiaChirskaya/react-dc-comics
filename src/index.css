@@ -27,6 +27,11 @@ header nav ul li a{
   text-decoration: none;
 }
 
+header nav ul li a.active{
+  border-bottom: 2px solid rgb(2, 130, 249);
+
+}
+
 /* main section style */
 main{
   display: flex;
