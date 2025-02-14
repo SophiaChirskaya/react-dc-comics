@@ -1,3 +1,5 @@
+// Importo componente ProductsList
+import ProductsList from "./products/ProductsList";
 // Importo componente banner
 import ServiceBanner from "./ServiceBanner";
 
@@ -6,9 +8,7 @@ import ServiceBanner from "./ServiceBanner";
 export default function Main() {
     return (<main className="main-content">
         <div className="content-wrapper">
-            <section className="content">
-                <h2> Content goes here </h2>
-            </section>
+            <ProductsList />
         </div>
         <ServiceBanner />
          </main>
